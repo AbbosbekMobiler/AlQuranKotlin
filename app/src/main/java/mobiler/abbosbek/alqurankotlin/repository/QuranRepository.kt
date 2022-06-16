@@ -28,6 +28,7 @@ class QuranRepository {
 
             override fun onFailure(call: Call<BaseResponse<List<SurahModel>>>, t: Throwable) {
                 error.value = t.localizedMessage
+
             }
         })
     }
